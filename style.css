@@ -1,0 +1,46 @@
+/* * {
+    margin-left:0s;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+/* margin은 밖으로, padding은 안으로 */
+/* 마진이 중복될때 병합되는 마진 병합margin collapse -> 그때그떄 검색해서 해결. */
+
+body{
+    color: blue;
+    background-color: rgb(131, 229, 149);
+    height: 100%;
+    width: 100%;
+}
+ol{
+    font-size: 20px;
+    color: rgb(131, 229, 149);
+    background-color: blue;
+}
+.text {
+    color: rgb(255, 0, 0);
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: -28px;
+}
+#main {
+    color: aliceblue;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: 30px;
+}
+.child {
+    color: red;
+    font-family: 'gulim';
+}
+
+.ing{
+    border: 1px solid black;
+     /* display: inline; */
+    display: block;
+    width: 34%;
+    height: 50%;
+    text-align: center;
+}
+
