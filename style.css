@@ -6,6 +6,8 @@
 
 /* margin은 밖으로, padding은 안으로 */
 /* 마진이 중복될때 병합되는 마진 병합margin collapse -> 그때그떄 검색해서 해결. */
+/* position: inline, block, fixed,absolute,relative, static, sticky */
+/* 50%중앙정렬: calc(50%-100px) */
 
 body{
     color: blue;
@@ -43,4 +45,11 @@ ol{
     height: 50%;
     text-align: center;
 }
+
+.ing:hover {
+    background-color: blue;
+    color: rgb(131, 229, 149);
+}
+
+
 
